@@ -6,65 +6,59 @@
     <title>NG Animation World - Win 1 Million!</title>
     <style>
         :root { --glo-green: #28a745; --dark-blue: #0a192f; --gold: #ffcc00; }
-        body { margin: 0; font-family: 'Helvetica', sans-serif; background-color: var(--dark-blue); color: white; text-align: center; }
-        .ticker { background: var(--gold); color: black; font-size: 0.8rem; padding: 8px; font-weight: bold; }
-        .header { padding: 15px; background: rgba(0,0,0,0.3); }
-        .promo-box { background: white; color: #333; margin: 15px; border-radius: 20px; padding: 5px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        .promo-img { width: 100%; border-radius: 15px; }
-        h1 { color: var(--gold); font-size: 1.5rem; margin: 15px; text-transform: uppercase; font-weight: 900; }
-        .cta-button { display: block; background: linear-gradient(180deg, #28a745 0%, #1e7e34 100%); color: white; text-decoration: none; padding: 18px; margin: 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem; animation: pulse 1.5s infinite; }
-        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.04); } 100% { transform: scale(1); } }
-        
-        /* Testimonials Section */
-        .testimonials { background: rgba(255,255,255,0.05); margin: 20px; padding: 15px; border-radius: 15px; text-align: left; }
-        .test-title { color: var(--gold); font-size: 0.9rem; font-weight: bold; margin-bottom: 10px; display: block; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px; }
-        .user-post { font-size: 0.85rem; margin-bottom: 15px; background: rgba(255,255,255,0.05); padding: 10px; border-radius: 10px; border-left: 3px solid var(--glo-green); }
-        .user-name { font-weight: bold; color: var(--glo-green); display: block; margin-bottom: 2px; }
-        .user-comment { opacity: 0.9; font-style: italic; }
-        .verified-badge { color: #4facfe; font-size: 0.7rem; margin-left: 5px; }
+        body { margin: 0; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: var(--dark-blue); color: white; text-align: center; padding-bottom: 50px; }
+        .ticker { background: var(--gold); color: black; font-size: 0.8rem; padding: 10px; font-weight: bold; letter-spacing: 0.5px; }
+        .header { padding: 20px 15px; background: rgba(0,0,0,0.4); border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .logo-img { height: 55px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+        .promo-box { background: white; color: #333; margin: 20px 15px; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.6); }
+        /* HD Image Settings */
+        .promo-img { width: 100%; height: auto; display: block; object-fit: contain; }
+        h1 { color: var(--gold); font-size: 1.7rem; margin: 20px 15px; text-transform: uppercase; font-weight: 900; line-height: 1.1; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .cta-button { display: block; background: linear-gradient(180deg, #2ecc71 0%, #27ae60 100%); color: white; text-decoration: none; padding: 22px; margin: 25px 20px; border-radius: 50px; font-weight: 800; font-size: 1.4rem; text-transform: uppercase; box-shadow: 0 8px 20px rgba(46, 204, 113, 0.4); animation: pulse 1.5s infinite; border: 1px solid rgba(255,255,255,0.2); }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.03); } 100% { transform: scale(1); } }
+        .testimonials { background: rgba(255,255,255,0.03); margin: 25px 15px; padding: 18px; border-radius: 15px; text-align: left; border: 1px solid rgba(255,255,255,0.05); }
+        .test-title { color: var(--gold); font-size: 0.9rem; font-weight: bold; margin-bottom: 15px; display: block; text-transform: uppercase; }
+        .user-post { font-size: 0.85rem; margin-bottom: 15px; background: rgba(255,255,255,0.05); padding: 12px; border-radius: 10px; border-left: 4px solid var(--glo-green); }
+        .user-name { font-weight: bold; color: var(--glo-green); display: block; margin-bottom: 3px; }
+        .verified-badge { color: #3498db; font-size: 0.75rem; margin-left: 5px; }
+        .footer-note { font-size: 0.8rem; opacity: 0.8; padding: 0 25px; line-height: 1.5; color: #bdc3c7; }
     </style>
 </head>
 <body>
 
-    <div class="ticker">⚡ 4,209 NIGERIANS JOINED THE CHALLENGE TODAY!</div>
+    <div class="ticker">⚡ TRENDING: ₦1,000,000 GIVEAWAY ENDS SOON!</div>
 
     <div class="header">
-        <img src="https://logowik.com/content/uploads/images/glo7371.jpg" alt="Glo" style="height: 40px; border-radius: 5px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Glo_Limited_logo.png/1024px-Glo_Limited_logo.png" alt="Glo HD" class="logo-img">
     </div>
 
-    <h1>WATCH, PLAY & WIN ₦1,000,000!</h1>
+    <h1>TASTE THE FLAVOUR <br>OF NAIJA!</h1>
     
     <div class="promo-box">
-        <img src="https://img.freepik.com/premium-photo/african-man-woman-cartoon-characters-celebrating-winning_1020697-1045.jpg" alt="Winners" class="promo-img">
-        <div style="padding: 10px;">
-            <span style="font-size: 1.1rem; font-weight: bold; display: block;">Join NG Animation World</span>
-            <span style="color: #28a745; font-weight: bold;">Stand a chance to win Cash & Airtime Daily!</span>
+        <img src="https://grandatp.com/wp-content/uploads/2021/03/Glo-Animation.jpg" alt="Win 1 Million HD" class="promo-img">
+        <div style="padding: 18px; background: #fff;">
+            <span style="font-size: 1.3rem; font-weight: 900; display: block; color: #111;">WIN UP TO ₦1,000,000</span>
+            <span style="color: var(--glo-green); font-weight: 700; font-size: 1rem;">+ DAILY AIRTIME REWARDS</span>
         </div>
     </div>
 
-    <a href="https://xpwvqvp.com/cl/3bfc9a5bfe4f9610" class="cta-button">CLAIM FREE ACCESS NOW</a>
+    <a href="https://xpwvqvp.com/cl/01aed180d6d6c445" class="cta-button">Join & Win Now</a>
 
     <div class="testimonials">
-        <span class="test-title">RECENT WINNERS FEEDBACK (LIVE)</span>
-        
+        <span class="test-title">Real Winners Today</span>
         <div class="user-post">
-            <span class="user-name">Tunde from Lagos <span class="verified-badge">✔ Verified Winner</span></span>
-            <span class="user-comment">"I just got 5k airtime for answering the trivia! Easy win o."</span>
+            <span class="user-name">Tunde from Lagos <span class="verified-badge">● Verified</span></span>
+            <span>"The airtime is real! Just won 5k now now. Glo is the best."</span>
         </div>
-
         <div class="user-post">
-            <span class="user-name">Amaka O. <span class="verified-badge">✔ Verified Winner</span></span>
-            <span class="user-comment">"The animations are actually very funny. Enjoying the service so far."</span>
-        </div>
-
-        <div class="user-post">
-            <span class="user-name">Emeka247 <span class="verified-badge">✔ Verified Winner</span></span>
-            <span class="user-comment">"I'm aiming for the 1 Million Naira! Thanks Glo Animation."</span>
+            <span class="user-name">Amaka O. <span class="verified-badge">● Verified</span></span>
+            <span>"I love the funny cartoons. Great service for Nigerians!"</span>
         </div>
     </div>
 
-    <p style="font-size: 0.75rem; opacity: 0.6; padding-bottom: 30px;">
-        Trusted by 1M+ Nigerians. No hidden charges.
+    <p class="footer-note">
+        <b>1st Day is FREE.</b> Join thousands of winners!<br><br>
+        <i>*Please turn off <b>Wi-Fi</b> and use <b>Glo Data</b> for instant activation.</i>
     </p>
 
 </body>
